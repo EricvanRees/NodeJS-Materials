@@ -60,7 +60,12 @@ Now start a project with the "npm run dev" in the terminal.
 
 Stop a project with CTRL + C
 
+## Uninstall package
 
+Run "npm rm [package name] [flag: production or development]
+for example: npm rm nodemon -D
+
+Remove the package name manually in the package.json file under "scripts".
 
 
 
